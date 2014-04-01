@@ -1,0 +1,21 @@
+PvPEssentials:
+  NeedFaction:
+    Enabled: true
+    Message: &ePlayer pp needs a faction. Invite him!
+    Cooldown: 1
+  DropHead:
+    Enabled: true
+    RarityLevel: 3
+    MobEnabled: true
+    MobRarityLevel: 10
+  PvPLog:
+    Enabled: true
+    TaggedTimer: 5
+    Broadcast: true
+    BroadcastMessage: Player %p% has just PvP logged and been killed
+  Killstreak:
+    Enabled: true
+    Announce: true
+    AnnounceAt: 3
+    
+    

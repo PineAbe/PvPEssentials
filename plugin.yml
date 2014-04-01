@@ -1,0 +1,38 @@
+name: PvPEssentials
+version: 0.4
+description: Essential for PvP servers!
+main: pineabe.PvPEssentials.Plugin
+commands:
+  pvpessentials:
+    description: View help file for PvPEssentials
+  pvpe:
+    description: Alias for /pvpessentials
+  nf:
+    description: Broadcast need faction message
+  spawnhead:
+    description: Spawn a head.
+  sh:
+    description: Alias for /spawnhead
+  score:
+    description: View your score
+  setkills:
+    description: Set kills
+  setdeaths:
+    description: Set deaths
+permissions:
+  pvp.needfaction:
+    description: Broadcast need faction message
+  pvp.score:
+    description: View your score
+  pvp.score.others:
+    description: View your mates score
+  pvp.candrophead:
+    description: Drop a head
+  pvp.reload:
+    description: Reload PvPEssentials
+  pvp.spawnhead:
+    description: Spawn a head
+  pvp.set.kills:
+    description: Set kills
+  pvp.set.deaths:
+    description: Set deaths
